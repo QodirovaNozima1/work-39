@@ -24,7 +24,7 @@ const Header = () => {
     
   return (
     <div>
-        <div className='h-full bg-green-200 flex-col pt-48 pb-40'>
+        <div className='h-full bg-green-200 flex-col pt-48 pb-60'>
                 <form onSubmit={handleCreate} className= ' bg-inherit rounded-lg mt-auto items-center justify-center flex flex-col gap-3'>
             <input placeholder='Book name' clas className='bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' required value={text} onChange={(e) => setText(e.target.value)} type="text" />
             <input placeholder='Comment' clas className='bg-gray-100 w-60 h-10 rounded-md p-2 outline-none text-gray-500 font-mono text-sm' required value={price} onChange={(e) => setPrice(e.target.value)} type="text" />
